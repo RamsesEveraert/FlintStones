@@ -1,0 +1,11 @@
+open stuk open houden van collisoin: opvullen met sprites (floor blocks)
+-> sprites maken en achteraf
+
+Level maken met gat erin
+- objects dat sprite zijn (zoals background) - deleten na animatie
+
+blok : has a sprite , collider 
+
+animeren en deleten
+
+-> plaatsen via trial en error

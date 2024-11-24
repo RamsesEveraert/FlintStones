@@ -1,0 +1,14 @@
+platformvogels: 52 x 100
+platform long: 52 x 200
+greenblop: 35x22
+pig: 50 x 36
+shark down: 95 x 65
+shark up: 129 x 65
+Piranha: 34 x 34
+snake 116 x 39
+
+miniboss: 130 x 60
+
+
+boss_atack 78 x 98
+boss_hit 78 x 98

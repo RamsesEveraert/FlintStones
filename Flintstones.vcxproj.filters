@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameFiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameFiles\Stage">
+      <UniqueIdentifier>{d4cd61b2-2897-46c9-8d55-8bbc40a424c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Sprites">
+      <UniqueIdentifier>{3eedf864-f51e-4a74-af2b-ce9e57c44598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Managers">
+      <UniqueIdentifier>{a5716a58-e2da-4468-9c0a-c999dea8e1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Graphics">
+      <UniqueIdentifier>{f2c53817-0722-41f3-9d94-f8be2adb25c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Graphics\Background">
+      <UniqueIdentifier>{25e348fa-a609-4902-b130-94ad4f502c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities">
+      <UniqueIdentifier>{e781f419-3e59-4345-9c90-574ee0efa6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Enemies">
+      <UniqueIdentifier>{f250d702-1850-4338-bb5f-e5b7f628524f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Player">
+      <UniqueIdentifier>{398b3c1d-84fb-4579-9d6e-2fe751fd9b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Camera">
+      <UniqueIdentifier>{0170c552-2947-4d1d-892f-e4b726c48405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Player\PlayerStates">
+      <UniqueIdentifier>{a460425d-78d2-4d64-acbc-a5083d636b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Player\StateMachine">
+      <UniqueIdentifier>{c076cb67-5e72-4c1e-be06-342f59f38c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Player\PlayerStates\Mainstate">
+      <UniqueIdentifier>{86f7d245-5923-44c0-851b-e48a1aa0d49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Player\PlayerStates\SubState">
+      <UniqueIdentifier>{bc25fa3a-5574-46c7-9edd-d5fcf641ac27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Stage\Platforms">
+      <UniqueIdentifier>{0ef725b8-57fa-4aa3-926e-4392b776f181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Graphics\Effects">
+      <UniqueIdentifier>{027626d7-fa98-4dc9-b88d-faf8e64d6fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\MiniBoss">
+      <UniqueIdentifier>{339fd2cd-8d48-416a-aab3-3ba396ac6121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Boss">
+      <UniqueIdentifier>{33ccb1c8-7990-41dd-b0d0-4cb5bd0b623a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\GameObjects">
+      <UniqueIdentifier>{c604d2e1-d15b-4fc3-ba5f-86d1fb2bc551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFiles\Entities\Enemies\Sharks">
+      <UniqueIdentifier>{78187b74-6737-429f-9a9c-e244bddacfdc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>GameFiles\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>GameFiles\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>GameFiles\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>GameFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>GameFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>GameFiles\Graphics\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameFiles\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>GameFiles\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformBird.cpp">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>GameFiles\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>GameFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatingStars.cpp">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Balloon.cpp">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldObjects.cpp">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Trampoline.cpp">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>GameFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>GameFiles\Entities\Player\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>GameFiles\Entities\Player\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateMachine.cpp">
+      <Filter>GameFiles\Entities\Player\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGroundedState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\Mainstate</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIdleState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMoveState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAbilityState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\Mainstate</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerJumpState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLandState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInAirState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSlideState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCrouchState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAttackState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLedgeClimbState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerChargingState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLedgeHangState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerChargedMoveState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSlopeRunState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="Logs.cpp">
+      <Filter>GameFiles\Stage\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="StageBlocks.cpp">
+      <Filter>GameFiles\Stage\Platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>GameFiles\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniBoss.cpp">
+      <Filter>GameFiles\Entities\MiniBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenBlop.cpp">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>GameFiles\Entities\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Pig.cpp">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Piranha.cpp">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransformedState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\Mainstate</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransformMoveState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransformAttackState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransformIdleState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTransformFlyState.cpp">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>GameFiles\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformManager.cpp">
+      <Filter>GameFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceManager.cpp">
+      <Filter>GameFiles\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TransportShark.cpp">
+      <Filter>GameFiles\Entities\Enemies\Sharks</Filter>
+    </ClCompile>
+    <ClCompile Include="Shark.cpp">
+      <Filter>GameFiles\Entities\Enemies\Sharks</Filter>
+    </ClCompile>
+    <ClCompile Include="AggressiveShark.cpp">
+      <Filter>GameFiles\Entities\Enemies\Sharks</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>GameFiles\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>GameFiles\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.h">
+      <Filter>GameFiles\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>GameFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>GameFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>GameFiles\Graphics\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameFiles\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>GameFiles\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformBird.h">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>GameFiles\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>GameFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatingStars.h">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Balloon.h">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObjects.h">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Trampoline.h">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>GameFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>GameFiles\Entities\Player\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGroundedState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\Mainstate</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIdleState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAbilityState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\Mainstate</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerJumpState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLandState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInAirState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSlideState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCrouchState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAttackState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLedgeClimbState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerChargingState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLedgeHangState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerChargedMoveState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="Egg.h">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSlopeRunState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="Logs.h">
+      <Filter>GameFiles\Stage\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBlocks.h">
+      <Filter>GameFiles\Stage\Platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>GameFiles\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>GameFiles\Entities\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniBoss.h">
+      <Filter>GameFiles\Entities\MiniBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenBlop.h">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>GameFiles\Entities\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Pig.h">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Piranha.h">
+      <Filter>GameFiles\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransformedState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\Mainstate</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransformAttackState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransformIdleState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransformFlyState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTransformMoveState.h">
+      <Filter>GameFiles\Entities\Player\PlayerStates\SubState</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>GameFiles\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatformManager.h">
+      <Filter>GameFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceManager.h">
+      <Filter>GameFiles\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TransportShark.h">
+      <Filter>GameFiles\Entities\Enemies\Sharks</Filter>
+    </ClInclude>
+    <ClInclude Include="AggressiveShark.h">
+      <Filter>GameFiles\Entities\Enemies\Sharks</Filter>
+    </ClInclude>
+    <ClInclude Include="Shark.h">
+      <Filter>GameFiles\Entities\Enemies\Sharks</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateMachine.h">
+      <Filter>GameFiles\Entities\Player\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>GameFiles\Entities\Player\StateMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+hartjes : 13 x 11
+levens : 16 x 16
+coins : 16 x 16
+pause : 46 x 12
+score : 40 x 8
+
+GameOver Fred: 50 x 40
+selection button: 7 x 6

@@ -1,0 +1,15 @@
+1. Fred Vogel.png:
+- frames: 50x 50
+- texture: 390 x 195
+
+2. Fred FlintStones:
+- frames: 50 x 50
+- texture: 350 x 400 
+
+3. Fred Flinstone No club:
+- frames: 45 x45
+- texture: 270 x 232
+
+4. attack 55x55
+
+5. pause 50 x 40

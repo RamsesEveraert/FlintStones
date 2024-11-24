@@ -1,0 +1,13 @@
+rotating stars: 27x27
+ballon : 27x27
+plakkaat checkpoint: 27x27
+ei unhatched: 27 x 27
+ei hatched : 27 x 27
+hartje: 15 x 15 
+ster 15 x 15
+powerup: 31 x 20
+aasgier: 56 x 56
+trampoline: 57 x 25
+
+Falling logs: 48 x 14
+floorbloks: 70 x 30

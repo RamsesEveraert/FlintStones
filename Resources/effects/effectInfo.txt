@@ -1,0 +1,6 @@
+POW-effet: 			50 x 50
+Transform-START-effect		50 x 50
+Transform-START-effect		50 x 50
+
+charging			31 x 31
+stunned				26 x 18
